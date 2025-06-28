@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Airline</title>
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<style>
+#signup{
+	border-radius: 5px;
+    background-color: #2678;
+    padding: 20px;
+}
+</style>
+<script language="javascript" type="text/javascript">
+
+	function validation()
+
+	{
+	
+	var user=document.getElementById("name").value;
+	
+	var psd=document.getElementById("pass").value;
+	
+	if(user=="admin" && psd=="admin123")
+		
+	return true;
+		
+	else
+		
+	{
+			alert("Not valid");
+	
+		return false;
+	
+	}
+	
+}
+</script>
+<form method="POST" onsubmit="return validation();" action="add.html">
+<body>
+<div id="nav1">
+  <h1><a href="home.html">Airline Reservation System</a></h1>
+    <ul>
+	<li><a href="home.html">Home</a></li>
+    <li id="active"><div class="dropdown">
+  		<button class="dropbtn">Login</button>
+  			<div class="dropdown-content">
+    				<a href="login.html">Customer</a>
+    				<a href="admin.html">Admin</a>
+  			</div>
+	</div>
+	</li>
+    <li><a href="#">Reservation</a></li>
+    <li><a href="pmain.html">Packages</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+  </ul>
+</div>
+
+<div id="main-content">
+	<div id="left">
+		<img src="ff.jpg" width="250" height="500">
+	</div>
+	<div id="right">
+		<marquee direction="down"> <img src="ff2.jpg" width="250" height="500"> </marquee>
+	</div>
+	<div id="signup">
+		<center>
+	<font size=9 color="white">Admin Login</font> <br><br>
+
+	<font size=5 color="white">User Name&nbsp;&nbsp;&nbsp;<input type=text id=name required=""> <br><br>
+	
+	Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id=pass type=password > 
+	<br><br>
+	<input type=submit value=login>&nbsp;&nbsp;&nbsp;
+	</font>
+	</div>
+		<div id="footer">
+				all right reserved 2021
+		</div>
+</div>
+
+</body>
+
+
+</html>

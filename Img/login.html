@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+
+<title>Bus</title>
+<link rel="stylesheet" type="text/css" href="home.css">
+
+
+
+</head>
+<script language="javascript" type="text/javascript">
+
+	function check()
+
+	{
+	
+	var user=document.getElementById("uname").value;
+	
+	
+			alert(user);
+	
+		
+	
+	}
+	
+
+</script>
+
+<style>
+body{
+background-image:url("b9.jpeg");
+background-size:100%;
+background-repeat:no-repeat;
+}
+</style>
+<div id="nav1">
+  <h1><a href="home.html">Online bus ticket Reservation System</a></h1>
+    <ul>
+	<li><a href="home.html">Home</a></li>
+    <li id="active"><div class="dropdown">
+  		<button class="dropbtn">Login</button>
+  			<div class="dropdown-content">
+    				<a href="login.html">Passenger</a>
+    				
+  			</div>
+	</div></a></li>
+    <li><a href="reservation.html">Reservation</a></li>
+    <li><a href="pmain.html">Packages</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+  </ul>
+</div>
+
+<div id="main-content">
+	
+	<div id="login">
+		<CENTER>
+	<FONT size=9><FONT color="white">LOGIN </FONT> 
+<form action="login.php" method="post">
+</CENTER> <BR>
+<CENTER>
+	<FONT size=5> <FONT color=white>
+	
+	User Name&nbsp;&nbsp;&nbsp;<INPUT type="text" id="uname" required=""><br>
+	
+	Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<INPUT type=password name=pass> 
+	<br>
+	<INPUT type="submit" value="Login" required="" onclick = "check()">&nbsp;&nbsp;&nbsp;
+	<FONT size=3>
+	<a href="signup.html">New User? Create New Account.</a>
+	</form>
+</div>
+
+		<div id="footer">
+				All right reserved 2021
+		</div>
+</div>
+
+</body>
+
+
+</html>

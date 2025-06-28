@@ -1,0 +1,37 @@
+<html>
+<title>Reseration page</title>
+<style>
+
+#head{
+	color : pink;
+	font-size :36px;
+	text-align : center;
+}
+body{
+background-image:url("b14.jpeg");
+background-size:100%;
+background-repeat:no-repeat;
+}
+</style> 
+<form>
+<center><div id="head">RESERVATION</head></center><br><br>
+<body>
+<center><table>
+<tr>
+
+<td>Payment Type : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+	<input type="radio" name="payment">Cash
+
+	<input type="radio" name="payment">Paytm
+
+    
+    </td
+</tr>
+<tr>
+	<td><center><br><input type="submit" value="Payment"></center></td>
+</tr>
+</table>
+</form>
+</center></body>
+</html>

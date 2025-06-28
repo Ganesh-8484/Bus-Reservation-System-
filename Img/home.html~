@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ONLINE BUS TICKET RESERVATION SYSTEM</title>
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+<style>
+body{
+background-image:url("b2.jpeg");
+background-size:100%;
+background-repeat:no-repeat;
+}
+</style>
+<div id="nav1">
+  <h1><a href="home.html">Online Bus Ticket Reservation System</a></h1>
+    <ul>
+	<li id="active"><a href="home.html">Home</a></li>
+ 
+
+	<div class="dropdown">
+  		<button class="dropbtn">Login</button>
+  			<div class="dropdown-content">
+    				<a href="login.html">Passenger</a>
+    				  			</div>
+	</div>
+    <li><a href="reservation.html">Reservation</a></li>
+    <li><a href="pmain.html">Packages</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+  </ul>
+</div>
+
+<div id="main-content">
+
+	<h1>Welcome To Bus Ticket Reservation System</h1>
+	<br>
+		<img src="b1.jpeg" width="500" height="300">
+		<p>System to be used at different resevation agency to seats for passengers online. It is a customer oriented software and also easy to use.
+			The Reservation System is an attempt to integrate the services affered by the different Bus & Companies across the world.</p>
+	
+		<div id="footer">
+				All Right Reserved 2019
+		</div>
+</div>
+
+</body>
+
+
+</html>

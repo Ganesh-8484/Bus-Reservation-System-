@@ -1,0 +1,21 @@
+<?php
+
+$r= $_POST['from'];
+$n= $_POST['to'];
+$g= $_POST['departing'];
+$m= $_POST['returning'];
+$e= $_POST['seats'];
+$c= $_POST['class'];
+mysql_connect('localhost','root','');
+mysql_select_db('airline');
+
+
+if(mysql_query("insert into reserv values('$r','$n','$g','$m','$e','$c')") or die(mysql_error()))
+{
+	echo ("enter info....");
+}
+else
+   {
+	   echo ("n");
+   }	
+?>
